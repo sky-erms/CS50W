@@ -25,12 +25,18 @@ a {
   .searchBar {
     width: 80%;
   }
+  .logo-img {
+    width: 20%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .searchBar {
     width: 80%;
+  }
+  .logo-img {
+    width: 20%;
   }
 }
 
@@ -39,12 +45,18 @@ a {
   .searchBar {
     width: 80%;
   }
+  .logo-img {
+    width: 20%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .searchBar {
     width: 50%;
+  }
+  .logo-img {
+    width: 15%;
   }
 }
 
@@ -53,9 +65,11 @@ a {
   .searchBar {
     width: 50%;
   }
+  .logo-img {
+    width: 15%;
+  }
 }
 body {
-  /* margin-left: 45px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -92,6 +106,12 @@ form {
   justify-content: space-around;
 }
 
+.logo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 form p {
   font-size: 16px;
   /* font-weight: 500; */
@@ -102,15 +122,15 @@ form p {
   margin: 40px 2% 0 45px;
 }
 .searchBar {
-  padding-top: 14px;
+  padding-left: 20px;
   text-rendering: auto;
-  line-height: 22px;
   background: transparent;
   outline: none;
   font-size: 16px;
   border: 0.06rem solid #d2d2d2;
   border-radius: 5em;
-
+  min-height: 50px;
+  box-shadow: 0 1px 5px 0.5px rgba(64, 60, 67, 0.24);
   /*padding: 20px;*/
 }
 
