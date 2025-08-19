@@ -64,7 +64,7 @@ form p {
   align-items: baseline;
   margin: 40px 2% 0 45px;
 }
-.searchBar {
+.search_bar {
   padding-left: 20px;
   text-rendering: auto;
   background: transparent;
@@ -97,6 +97,7 @@ form p {
 .specs {
   margin-top: 10px;
   color: #222;
+  font-size: 13px;
 }
 
 .search_btn {
@@ -122,26 +123,24 @@ form p {
   }
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .searchBar {
+  .search_bar {
     width: 80%;
   }
   .logo-img {
     width: 40%;
   }
 
-  .searchBar {
+  .search_bar {
     min-height: 2rem;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .searchBar {
+  .search_bar {
     width: 55%;
   }
   .logo-img {
-    width: 22%;
+    width: 25%;
   }
 }
